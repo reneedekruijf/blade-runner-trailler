@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="../css/moviePosterStyle.css">
+    <link rel="icon" type="image/png" href="../media/image/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> <!-- google fonts -->
+    <title>Blade Runner 2049 foutmelding</title>
+    <script src="../js/swap-image.js" type="text/javascript"></script> <!-- script voor de muisover van de menuknoppen -->
+</head>
+<body>
+    <main> <!-- start main -->
+        <header> <!-- header met het logo -->
+            <a href="../index.html"><img src="../media/image/word-logo-bladerunner.png" alt="logo bladerunner" title="ga naar de homepage" width="1227" height="206"></a>
+        </header> <!-- einde header -->
+        <video class="achtergrondVideo" width="1280" height="720" preload="auto" poster="../media/image/poster-image-background-movie.jpg" muted autoplay loop> <!-- video voor de achtergrond -->
+            <source src="../media/movie/background/bladerunner-background.mp4" type="video/mp4">
+            <source src="../media/movie/background/bladerunner-background.webm" type="video/webm">
+            <source src="../media/movie/background/bladerunner-background.ogg" type="video/ogg">            
+        </video>
+        <section> <!-- start section -->
+            <p class="foutMelding">Oeps er is iets mis gegaan. De pagina die u zoekt is helaas niet gevonden. Maak hieronder een keus voor een trailer of klik op de titel om terug te gaan naar homepage.</p>
+        </section>  <!-- einde section -->
+        <footer> <!-- start footer -->
+            <nav> <!-- start nav -->
+                <ul> <!-- lijst met menu knoppen -->
+                    <li><a href="../pages/trailer-large.html"><img  id="firstMenuButton" onMouseOver="MM_swapImage('firstMenuButton','','../media/image/menu-button-big-hover.png',1)" onMouseOut="MM_swapImgRestore()" src="../media/image/menu-button-big.png" width="210" height="70" alt="button voor grote trailer" title="button voor grote trailer"></a></li>
+                    <li><a href="../pages/trailer-medium.html"><img  id="secondMenuButton" onMouseOver="MM_swapImage('secondMenuButton','','../media/image/menu-button-medium-hover.png',1)" onMouseOut="MM_swapImgRestore()" src="../media/image/menu-button-medium.png" width="210" height="70" alt="button voor medium trailer" title="button voor grote trailer"></a></li>
+                    <li><a href="../pages/trailer-small.html"><img  id="thirdMenuButton" onMouseOver="MM_swapImage('thirdMenuButton','','../media/image/menu-button-small-hover.png',1)" onMouseOut="MM_swapImgRestore()" src="../media/image/menu-button-small.png" width="210" height="70" alt="button voor kleine trailer" title="button voor grote trailer"></a></li>
+                </ul>
+            </nav> <!-- einde nav -->
+        </footer> <!-- einde footer -->
+    </main> <!-- einde main -->
+</body>
+</html>
